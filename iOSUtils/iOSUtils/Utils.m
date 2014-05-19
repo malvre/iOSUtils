@@ -19,4 +19,31 @@
     return [UIColor colorWithRed:((rgbValue & 0xFF0000) >> 16)/255.0 green:((rgbValue & 0xFF00) >> 8)/255.0 blue:(rgbValue & 0xFF)/255.0 alpha:1.0];
 }
 
++ (NSInteger)daysBetweenDate:(NSDate*)fromDateTime
+					 andDate:(NSDate*)toDateTime
+{
+    NSDate *fromDate;
+    NSDate *toDate;
+	
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+	
+    [calendar rangeOfUnit:NSDayCalendarUnit startDate:&fromDate
+				 interval:NULL forDate:fromDateTime];
+    [calendar rangeOfUnit:NSDayCalendarUnit startDate:&toDate
+				 interval:NULL forDate:toDateTime];
+	
+    NSDateComponents *difference = [calendar components:NSDayCalendarUnit
+											   fromDate:fromDate toDate:toDate options:0];
+	
+    return [difference day];
+}
+
++ (NSString*) floatToCurrency:(float)v
+{
+	NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+	[numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+	NSString *numberAsString = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:v]];
+	return numberAsString;
+}
+
 @end

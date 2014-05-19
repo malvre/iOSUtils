@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AAC50329-FE5F-429C-A6A1-B025A96DEF54</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSUtils</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F77C031D-A5D7-4844-B094-369CA10ED1CB</key>
+		<string>https://github.com/malvre/iOSUtils.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSUtils/iOSUtils.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F77C031D-A5D7-4844-B094-369CA10ED1CB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/malvre/iOSUtils.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F77C031D-A5D7-4844-B094-369CA10ED1CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F77C031D-A5D7-4844-B094-369CA10ED1CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSUtils</string>
+		</dict>
+	</array>
+</dict>
+</plist>

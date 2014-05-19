@@ -12,4 +12,9 @@
 
 + (UIColor *)colorFromHexString:(NSString *)hexString;
 
++ (NSInteger)daysBetweenDate:(NSDate*)fromDateTime
+					 andDate:(NSDate*)toDateTime;
+
++ (NSString*) floatToCurrency:(float)v;
+
 @end
